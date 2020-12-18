@@ -11,3 +11,10 @@ window.onload = function() {
 
     firebase.initializeApp(firebaseConfig);
 }
+
+function adduser() {
+    var name = document.getElementById("user_name").value;
+    firebase.database().ref("/").child(name).update({
+        purpose: "adding room name"
+    });
+}
