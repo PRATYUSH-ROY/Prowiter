@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+    background-image: linear-gradient(-45deg, #00c3ff, rgb(0, 255, 157), #eeff00, #c300ff, #ee759d, #2c3600);
 }
 
 .header {
